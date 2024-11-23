@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header {
+	width: 100%;
+	background-color: bisque;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+}
+
+.header__logo {
+	font-family: "Poppins", sans-serif;
+	color: rgb(72, 72, 244);
+}
+
+
+.header__items {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__item {
+	list-style-type: none;
+}
+
+.header__item a {
+	text-decoration: none;
+	color: black;
+	font-family: "Poppins", sans-serif;
+}
+
+.header__item a:hover {
+	color: rgb(72, 72, 244);
+}
+
+.footer {
+	width: 100%;
+	background-color: bisque;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__logo {
+	font-family: "Poppins", sans-serif;
+	color: rgb(72, 72, 244);
+	font-size: 22px;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 0 30px;
+}
+
+.product {
+	width: 301px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding-bottom: 40px;
+	border-radius: 20px;
+}
+
+.product__img {
+	width: 300px;
+	height: 250px;
+	border-radius: 20px 20px 0 0 ;
+}
+
+.product__title {
+	font-family: "Poppins", sans-serif;
+	line-height: 27px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.product__desc {
+	font-family: "Poppins", sans-serif;
+	line-height: 20px;
+	margin: 10px 5px 0 15px;
+}
+
+.product__price {
+	font-family: "Poppins", sans-serif;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.product__price_text {
+	color: rgb(239, 173, 8);
+	font-size: 18px;
+}
+
+
+/* create file */
+
+#form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form__inp {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 25px;
+	padding-left: 10px;
+}
+
+.create__title {
+	margin: 0 auto;
+}
+
+.form__btn {
+	width: 200px;
+	height: 40px;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: rgb(8, 245, 8);
+	border: none;
+	border-radius: 100px;
+	margin-top: 20px;
+	color: white;
+	font-size: 16px;
+}
+.form__btn:hover {
+	width: 210px;
+	height: 42px;
+}
