@@ -17,7 +17,7 @@ function displayProducts(products) {
 			<h2 class='product__title'>${product.title}</h2>
 			<p class='product__desc'>${product.description}</p>
 			<p class='product__price'>Цена: <span class='product__price_text'>${product.price}</span> сом</p>
-			<a href="update.html?id=${product.id}" class="product__edit">Редактировать</a>
+			<a href='edit.html?id=${product.id}' class='edit__link'>Редактирование</a>
 		</div>
 	`)
 }

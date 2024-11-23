@@ -144,3 +144,20 @@ body {
 	width: 210px;
 	height: 42px;
 }
+
+
+.edit__link {
+	width: 140px;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	margin-left: 15px;
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	border-radius: 30px;
+	font-family: "Poppins", sans-serif;
+	padding: 10px 20px;
+}
